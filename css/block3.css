@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.main-info {
+    border: 1px solid white;
+    height: 902px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.creators {
+    padding-top: 100px;
+    font-size: 18px;
+    width: 60%;
+    float: left;
+    padding-left: 100px;
+}
+
+.photo-creators {
+    width: 388px;
+    height: 515px;
+    float: right;
+    margin-top: 110px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
