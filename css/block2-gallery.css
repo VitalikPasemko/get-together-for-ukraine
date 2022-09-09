@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.photo-exhebition {
+    border: 1px solid white;
+    height: 476px;
+}
+
+.title-exhebition {
+    margin-top: 70px;
+    padding-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.button-previous-click{
+    border: 0px;
+    background-color: white;
+}
+
+.button-next-click {
+    border: 0px;
+    background-color: white;
+}

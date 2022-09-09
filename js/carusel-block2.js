@@ -6,7 +6,7 @@
         {
             "id": "1",
             "fone": "img/1.png",
-            "name": "Photo exhibition <br> “Ukraine. After the invastion",
+            "name": "Photo exhibition <br> “Ukraine. After the invastion”",
             "date": "4-16 of August",
             "info": "Opening hours: 12 pm - 6 pm <br> Free entrance <br> Binnenhofzaal, Korte Vijverberg, 2, The Hague"
         },
@@ -30,13 +30,11 @@
     let productsHtml = [];
     for (const product of products) {
         productsHtml.push(` 
-        <div class="events">
         <style>
         .events {
             background: url(${product.fone});
             background-size: cover;
         }
-        
         </style>
         <div class="event">
             <h1 class="name-events">${product.name}</h1>
@@ -46,10 +44,9 @@
                 <a href="#donate" class="donate-now">Donate Now</a>
             </div>
         </div>
-            <div class=button-carusel>
-        <button class="button-previous-click"><img src="img/previou.png" alt="left click"></button>
-        <button class="button-next-click"><img src="img/nex.png" alt="back click"></button>
-    </div>
+        <div class=button-carusel>
+            <button class="button-previous-click"><img src="img/previou.png" alt="left click"></button>
+            <button class="button-next-click"><img src="img/nex.png" alt="back click"></button>
         </div>`);
     };
 
