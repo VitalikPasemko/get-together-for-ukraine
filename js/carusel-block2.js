@@ -44,10 +44,7 @@
                 <a href="#donate" class="donate-now">Donate Now</a>
             </div>
         </div>
-        <div class=button-carusel>
-            <button class="button-previous-click"><img src="img/previou.png" alt="left click"></button>
-            <button class="button-next-click"><img src="img/nex.png" alt="back click"></button>
-        </div>`);
+       `);
     };
 
     document.querySelector('.events').innerHTML = productsHtml;

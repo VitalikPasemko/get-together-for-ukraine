@@ -6,21 +6,25 @@ body {
     margin: 0;
     height: 100%;
   }
-  
-.nav {
-    border: 1px solid white;
-    height: 94px;
+
+.menu {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav {
+    padding-right: 30px;
 }
 
 .button-nav {
-    margin: auto;
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
     line-height: 22px;
     font-size: 18px;
+    padding: 20px;
 }
 
 .button-nav:focus {
@@ -35,7 +39,6 @@ body {
 
 .button-nav-donate {
     padding: 10px 20px;
-    margin: auto;
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -44,11 +47,14 @@ body {
     font-size: 18px;
 }
 
-.logo {
+.logo img {
+    margin-top: 12px;
+    margin-left: 50px;
     width: 160px;
     height: 140px;
-    margin-right: 40%;
-    margin-left: 50px;
-    margin-top: 12px;
-    border-radius: 10px;
-}
+    border-radius: 10px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+

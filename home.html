@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Get together for Ukraine</title>
+    <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="css/block1.css">
     <link rel="stylesheet" href="css/block2.css">
     <link rel="stylesheet" href="css/block3.css">
@@ -15,10 +16,12 @@
 </head>
 
 <body>
+<div class="root">
     <div class="nav">
         <div class="logo">
-            <img src="img/logo.png" class="logo" alt="logo">
-        </div>
+            <img src="img/logo.png" alt="logo">
+        </div>  
+    <div class="menu">
         <a href="home.html" class="button-nav">Home</a>
         <a href="gallery.html" class="button-nav">Gallery</a>
         <a href="#about us" class="button-nav">About us</a>
@@ -26,15 +29,20 @@
         <a href="#language" class="button-nav">En/Nl</a>
         <a href="#donate" class="button-nav-donate">Donate</a>
     </div>
+    </div>
     <div class="events"></div>
-    <!-- <div class="dueties">
-        <img src="img/houses.png" width="200px" height="300px" alt="">
-        <img src="img/schools.png" width="200px" height="300px" alt="">
-        <img src="img/medicines.png" width="200px" height="300px" alt="">
-        </div> -->
+    <div class=button-carusel>
+        <button class="button-previous-click"><img src="img/previou.png" alt="left click"></button>
+        <button class="button-next-click"><img src="img/nex.png" alt="back click"></button>
+    </div>
+    <div class="dueties">
+        <img src="img/houses.png"  alt="">
+        <img src="img/schools.png"  alt="">
+        <img src="img/medicines.png"  alt="">
+        </div>
     <div class="main-info">
         <div class="creators">
-            <h1>About the creators</h1>
+            <h2 class="title-creators">About the creators</h2>
             <p>Stichting ‘Get Together for Ukraine’ is gevestigd te Den Haag en werd in juni 2022 opgericht met het doel
                 geld in te zamelen voor acute noodhulp aan de slachtoffers van de oorlog in Oekraïne.
                 De stichting organiseert huisconcerten/benefietconcerten met optredens van getalenteerde, jonge
@@ -54,32 +62,34 @@
                 Willemijn van Sandick</p>
         </div>
         <div class="photo-creators">
-            <img src="img/photo-creators.png" class="photo-creators" alt="photo creators">
+            <img src="img/photo-creators.png" alt="photo creators">
         </div>
     </div>
     <div class="main-stats">
         <div class="total-money">
-            <h1>000</h1>
+            <p class="stats-numbers">000</p>
             <p>total was collected</p>
         </div>
         <div class="total-events">
-            <h1>000</h1>
+            <p class="stats-numbers">000</p>
             <p>charity events organized</p>
         </div>
         <div class="total-dinners">
-            <h1>000</h1>
+            <p class="stats-numbers">000</p>
             <p>charity dinners organized</p>
         </div>
     </div>
     <div class="info-about-partners">
         <h1>Our partners</h1>
+        <div class="logo-partners">
         <img src="img/partners-MI.png" class="partners-MI" alt="photo partners">
         <img src="img/partners-fond-ua.png" class="partners-fond-ua" alt="photo partners">
         <img src="img/partners-vastrecht.png" class="partners-vastrecht" alt="photo partners">
+        </div>
     </div>
     <div class="contact-info">
-        <div>
-            <img src="img/logo-end-store.png" class="logo-end-store" alt="logo">
+        <div class="logo-end-store">
+            <img src="img/logo-end-store.png" alt="logo">
         </div>
         <div class="address-and-kvk">
             <p>Laan Copes van Cattenburch, 89<br>2528 EW Den Haag</p>
@@ -98,6 +108,7 @@
                 <img src="img/instagram.png" class="social-icons" alt="instagram Icon"></a>
         </div>
     </div>
+</div>
     <script src="js/carusel-block2.js"></script>
 </body>
 

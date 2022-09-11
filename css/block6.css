@@ -3,39 +3,46 @@
 .contact-info {
     border: 1px solid #585858;
     background-color: #585858;
-    height: 202px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .logo-end-store {
+    padding-left: 100px;
+    flex: 1 1 20%;
+}
+
+.logo-end-store img {
     width: 101px;
     height: 138px;
-    margin-left: 100px;
-    margin-top: 32px;
 }
 
 .address-and-kvk {
-    margin-left: 150px;
-    margin-top: 32px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: white;
     font-size: 20px;
+    flex: 1 1 30%;
+    padding: 15px;
 }
 
 .mail {
-    margin-left: 150px;
-    margin-top: 32px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: white;
     font-size: 20px;
+    flex: 1 1 30%;
+    padding: 15px;
 }
 
 .social {
-    margin: auto;
+    padding-right: 100px;
+    flex: 1 1 20%;
 }
+
 .social-icons {
     width: 40px;
     padding: 0px 10px 0px 10px;

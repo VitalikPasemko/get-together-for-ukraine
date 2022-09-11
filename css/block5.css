@@ -2,27 +2,30 @@
 
 .info-about-partners {
     border: 1px solid white;
-    height: 307px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-left: 100px;
+    margin-right: 100px;
     margin-top: 30px;
+}
+.logo-partners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
 }
 
 .partners-MI {
-    width: 322px;
-    height: 127px;
-    margin-right:100px ;
+    max-width: 322px;
+    height: auto;
 }
 
 .partners-fond-ua {
-    width: 140px;
-    height: 138px;
-    margin: 0px 150px 0px 150px ;
+    max-width: 140px;
+    height: auto;
 }
 
 .partners-vastrecht {
-    width: 233px;
-    height: 127px;
-    margin: 0px 150px 0px 150px ;
+    max-width: 233px;
+    height: auto;
 }
