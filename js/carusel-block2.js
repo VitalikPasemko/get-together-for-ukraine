@@ -41,14 +41,13 @@
             <p class="date-events">${product.date}</p>
             <p class="info-events" >${product.info}</p>
             <div class="button-donate">
-                <a href="#donate" class="donate-now">Donate Now</a>
+                <a href="" class="donate-now">Donate Now</a>
             </div>
         </div>
        `);
     };
 
-    document.querySelector('.events').innerHTML = productsHtml;
-
+   
 
     const slides = productsHtml;
     let currentSlideIdx = 0;

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+/* Body */
+
+body {
+    margin: 0px;
+}
+
+
+/* Block start */
+
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.button-nav {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 22px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.button-nav:focus {
+    color: #0066CB;
+}
+
+.button-nav:hover {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #0066CB;
+}
+
+.button-nav-donate {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0066CB;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.logo img {
+    margin-top: 12px;
+    margin-left: 50px;
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Block End */
+
+.contact-info {
+    border: 1px solid #585858;
+    background-color: #585858;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo-end-store {
+    padding-left: 100px;
+    flex: 1 1 20%;
+}
+
+.logo-end-store img {
+    width: 101px;
+    height: 138px;
+}
+
+.address-and-kvk {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+    flex: 1 1 30%;
+    padding: 15px;
+}
+
+.mail {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+    flex: 1 1 30%;
+    padding: 15px;
+}
+
+.social {
+    padding-right: 100px;
+    flex: 1 1 20%;
+}
+
+.social-icons {
+    width: 40px;
+    padding: 0px 10px 0px 10px;
+}

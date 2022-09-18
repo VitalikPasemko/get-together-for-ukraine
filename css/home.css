@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+/* Events Block */
+
+
+.carusel-product {
+    display: flex;
+}
+
+.events {
+    min-height: 624px;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.event {
+    flex: 1 1 50%;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.events p {
+    margin: 0px;
+}
+
+.name-events {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: white;
+    
+}
+
+.date-events {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    color: white;
+    
+    padding-top: 50px;
+}
+
+.info-events {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    padding-top: 50px;
+}
+
+.donate-now {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #0066CB;
+    border-radius: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button-donate {
+    padding-top: 50px;
+}
+
+/* button carusel */
+
+
+.button-previous-click, .button-next-click {
+    border: 0px;
+    background-color: white;
+}
+
+
+.button-next-click img, .button-previous-click img {
+    max-width: 40px;
+}
+
+
+/* Creators  Block */
+
+.main-info {
+    border: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    display: flex;
+    padding: 0 100px 100px;
+}
+
+.title-creators {
+    font-size: 40px;
+}
+
+.creators {
+    font-size: 18px;
+    padding-right: 200px;
+}
+
+.photo-creators img {
+    max-width: 388px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.dueties {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -150px;
+    padding-left: 100px;
+    padding-right: 100px;
+} 
+
+.dueties img {
+    display: inline-block;
+    max-width: 200px;
+    height: auto;
+    width: 33%;
+}
+
+
+/* Stats Block */
+
+.main-stats {
+    border: 1px solid #0066CB;
+    background-color: #0066CB;
+    display: flex;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 20px;
+}
+
+.stats-numbers {
+    font-size: 55px;
+    margin: 0px;
+}
+
+.total-money, .total-events, .total-dinners {
+    margin: auto;
+}
+
+
+/* Partners Block */
+
+.info-about-partners {
+    border: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.logo-partners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.partners-MI {
+    max-width: 322px;
+    height: auto;
+}
+
+.partners-fond-ua {
+    max-width: 140px;
+    height: auto;
+}
+
+.partners-vastrecht {
+    max-width: 233px;
+    height: auto;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+/* Carusel block 1 */
+
+
+.photo-exhebition {
+    border: 1px solid white;
+    height: 476px;
+}
+
+.title-exhebition {
+    margin-top: 100px;
+    padding-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.button-previous-click{
+    border: 0px;
+    background-color: white;
+}
+
+.button-next-click {
+    border: 0px;
+    background-color: white;
+}
+
+.button-next-click img {
+    max-width: 40px;
+}
+
+.button-previous-click img {
+    max-width: 40px;
+}
+
+/* video Block */
+
+
+.video {
+    border: 1px solid white;
+    height: 670px;
+}
+
+.title-concert {
+    margin-top: 70px;
+    padding-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
+/* Carusel Block 2 */
+
+
+.photo-garden {
+    border: 1px solid white;
+    height: 628px;
+}
+
+.title-garden {
+    margin-top: 70px;
+    padding-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.button-previous-click{
+    border: 0px;
+    background-color: white;
+}
+
+.button-next-click {
+    border: 0px;
+    background-color: white;
+}
