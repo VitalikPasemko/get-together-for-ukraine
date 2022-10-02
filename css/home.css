@@ -70,6 +70,21 @@
     padding-top: 50px;
 }
 
+.dueties {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -150px;
+    padding-left: 340px;
+    padding-right: 100px;
+} 
+
+.dueties img {
+    display: inline-block;
+    max-width: 200px;
+    height: auto;
+    width: 33%;
+}
+
 @media (max-width: 880px) {
     .events {
         min-height: 500px;
@@ -96,7 +111,11 @@
     .events {
         min-height: 400px;
     }
+    .dueties {
+        padding-left: 200px;
+    }
 }
+
 @media (max-width: 718px) {
     .events {
         min-height: 350px;
@@ -119,6 +138,9 @@
     }
     .donate-now {
         font-size: 15px;
+    }
+    .dueties {
+        padding-left: 160px;
     }
 }
 
@@ -155,6 +177,7 @@
     }
     .dueties {
         margin-top: -100px;
+        padding-left: 160px;
     }
 }
 
@@ -169,16 +192,16 @@
         margin-bottom: 80px;
     }
     .name-events {
-        font-size: 10px;
+        font-size: 12px;
     }
     
     .date-events {
-        font-size: 10px;
+        font-size: 12px;
         padding-top: 5px;
     }
     
     .info-events {
-        font-size: 6px;
+        font-size: 7px;
         padding-top: 5px;
     }
     .donate-now {
@@ -186,6 +209,8 @@
     }
     .dueties {
         margin-top: -80px;
+        padding-left: 240px;
+        padding-right: 30px;
     }
 }
 /* button carusel */
@@ -228,20 +253,6 @@
     margin-top: 100px;
 }
 
-.dueties {
-    display: flex;
-    justify-content: flex-end;
-    /* margin-top: -150px; */
-    padding-left: 140px;
-    padding-right: 100px;
-} 
-
-.dueties img {
-    display: inline-block;
-    max-width: 200px;
-    height: auto;
-    width: 33%;
-}
 
 @media (max-width: 1130px) {
     .main-info {
