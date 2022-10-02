@@ -21,8 +21,9 @@
 
 .event {
     flex: 1 1 50%;
-    margin-left: 200px;
+    margin-left: 250px;
     margin-right: 100px;
+    margin-bottom: 80px;
 }
 
 .events p {
@@ -69,6 +70,124 @@
     padding-top: 50px;
 }
 
+@media (max-width: 880px) {
+    .events {
+        min-height: 500px;
+    }
+    .event {
+        margin-left: 200px;
+    }
+    .name-events {
+        font-size: 25px;
+    }
+    
+    .date-events {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    
+    .info-events {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 880px) {
+    .events {
+        min-height: 400px;
+    }
+}
+@media (max-width: 718px) {
+    .events {
+        min-height: 350px;
+    }
+    .event {
+        margin-left: 180px;
+    }
+    .name-events {
+        font-size: 20px;
+    }
+    
+    .date-events {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    
+    .info-events {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .donate-now {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 674px) {
+    .event {
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 588px) {
+    .events {
+        min-height: 250px;
+    }
+    .event {
+        margin-left: 150px;
+        margin-right: 50px;
+        margin-bottom: 80px;
+    }
+    .name-events {
+        font-size: 15px;
+    }
+    
+    .date-events {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+    .info-events {
+        font-size: 8px;
+        padding-top: 10px;
+    }
+    .donate-now {
+        font-size: 15px;
+    }
+    .dueties {
+        margin-top: -100px;
+    }
+}
+
+@media (max-width: 431px) {
+    .events {
+        min-height: 200px;
+        padding-bottom: 0px;
+    }
+    .event {
+        margin-left: 150px;
+        margin-right: 50px;
+        margin-bottom: 80px;
+    }
+    .name-events {
+        font-size: 10px;
+    }
+    
+    .date-events {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    
+    .info-events {
+        font-size: 6px;
+        padding-top: 5px;
+    }
+    .donate-now {
+        font-size: 10px;
+    }
+    .dueties {
+        margin-top: -80px;
+    }
+}
 /* button carusel */
 
 
@@ -112,8 +231,8 @@
 .dueties {
     display: flex;
     justify-content: flex-end;
-    margin-top: -150px;
-    padding-left: 100px;
+    /* margin-top: -150px; */
+    padding-left: 140px;
     padding-right: 100px;
 } 
 
@@ -124,6 +243,67 @@
     width: 33%;
 }
 
+@media (max-width: 1130px) {
+    .main-info {
+        text-align: center;
+    }
+    .photo-creators img {
+        max-width: 300px;
+    }
+    .creators {
+        font-size: 16px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 946px) {
+    .photo-creators img {
+        max-width: 250px;
+    }
+    .creators {
+        font-size: 14px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 769px) {
+    .photo-creators img {
+        max-width: 200px;
+    }
+    .creators {
+        font-size: 12px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 629px) {
+    .title-creators {
+        font-size: 30px;
+    }
+    .main-info {
+        flex-direction: column;
+        padding: 0 0 100px;
+    }
+    .photo-creators img {
+        max-width: 388px;
+    }
+    .creators {
+        font-size: 16px;
+        padding: 0 100px 0;
+    }
+}
+
+@media (max-width: 498px) {
+    .title-creators {
+        font-size: 25px;
+    }
+    .photo-creators img {
+        max-width: 250px;
+    }
+    .creators {
+        font-size: 14px;
+    }
+}
 
 /* Stats Block */
 
@@ -147,6 +327,14 @@
     margin: auto;
 }
 
+@media (max-width: 680px) {
+    .stats-numbers {
+        font-size: 30px;
+    }
+    .total-money, .total-events, .total-dinners {
+        font-size: 10px;
+    }
+}
 
 /* Partners Block */
 
@@ -158,6 +346,11 @@
     margin-right: 100px;
     margin-top: 30px;
 }
+
+.title-partners {
+    font-size: 40px;
+}
+
 .logo-partners {
     display: flex;
     justify-content: space-between;
@@ -178,4 +371,76 @@
 .partners-vastrecht {
     max-width: 233px;
     height: auto;
+}
+
+@media (max-width: 1047px) {
+    .info-about-partners {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .partners-MI {
+        max-width: 270px;
+    }
+    
+    .partners-fond-ua {
+        max-width: 140px;
+    }
+    
+    .partners-vastrecht {
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 833px) {
+    .title-partners {
+        font-size: 20px;
+    }
+    .info-about-partners {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .partners-MI {
+        max-width: 200px;
+    }
+    
+    .partners-fond-ua {
+        max-width: 100px;
+    }
+    .partners-vastrecht {
+        max-width: 130px;
+    }
+}
+
+@media (max-width: 619px) {
+    .info-about-partners {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .partners-MI {
+        max-width: 140px;
+    }
+    
+    .partners-fond-ua {
+        max-width: 70px;
+    }
+    .partners-vastrecht {
+        max-width: 90px;
+    }
+}
+
+@media (max-width: 515px) {
+    .info-about-partners {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .partners-MI {
+        max-width: 100px;
+    }
+    
+    .partners-fond-ua {
+        max-width: 70px;
+    }
+    .partners-vastrecht {
+        max-width: 70px;
+    }
 }

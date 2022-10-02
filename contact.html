@@ -13,19 +13,44 @@
 
 <body>
 <div class="root">
-    <div class="nav">
-        <div class="logo">
-            <img src="img/logo.png" class="logo" alt="logo">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-body">
+                    <a href="index.html" class="header-logo">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                    <div class="header-burger">
+                        <span></span>
+                    </div>
+                    <nav class="header-menu">
+                        <ul class="header-list">
+                            <li>
+                                <a href="index.html" class="header-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html" class="header-link">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="" class="header-link">About us</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="header-link">Contact</a>
+                            </li>
+                            <li>
+                                <a href="home-nl.html" class="header-link">NL</a>
+                            </li>
+                            <li>
+                                <a href="home-ua.html" class="header-link">UA</a>
+                            </li>
+                            <li>
+                                <a href="" class="button-nav-donate">Donate</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </header>
         </div>
-    <div class="menu">
-        <a href="index.html" class="button-nav">Home</a>
-        <a href="gallery.html" class="button-nav">Gallery</a>
-        <a href="#about us" class="button-nav">About us</a>
-        <a href="contact.html" class="button-nav">Contact</a>
-        <a href="#language" class="button-nav">En/Nl</a>
-        <a href="#donate" class="button-nav-donate">Donate</a>
-    </div>
-    </div>
     <div class="info-contact">
         <h1 class="title-contact">Information about the foundation</h1>
         <p class="text-contact">Om meer te weten te komen over de stichting en onze activiteiten kunt u ons volgen
@@ -61,6 +86,8 @@
         </div>
     </div>
 </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/burger.js"></script>
 </body>
 
 </html>

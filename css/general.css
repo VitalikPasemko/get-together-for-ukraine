@@ -4,39 +4,97 @@
 /* Body */
 
 body {
-    margin: 0px;
+    max-width: 2000px;
+    margin: 0px auto;
+    min-height: 100vh;
 }
 
 
 /* Block start */
 
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
 
-.nav {
+.header:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+.header-body {
+    position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+}
+
+.header-logo img{
+    margin-top: 12px;
+    margin-left: 50px;
+    width: 160px;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.header-burger {
+    display: none;
+}
+
+.header-burger.active::before {
+    transform: rotate(45deg);
+    top: 9px;
+}
+
+.header-burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+}
+
+.header-burger.active span {
+    transform: scale(0);
+}
+
+.header-list {
+    display: flex;
+    position: relative;
+    z-index: 2;
     padding-right: 30px;
 }
 
-.menu {
-    display: flex;
-    align-items: center;
+.header-list li{
+    list-style: none;
+    margin: 0px 0px 0px 20px;
 }
 
-.button-nav {
-    text-decoration: none;
+.header-link {
     color: black;
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     line-height: 22px;
     font-size: 18px;
-    padding: 20px;
+    padding: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.button-nav:focus {
+
+.header-link:focus {
     color: #0066CB;
 }
 
-.button-nav:hover {
+.header-link:hover {
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-color: #0066CB;
@@ -52,15 +110,92 @@ body {
     font-size: 18px;
 }
 
-.logo img {
-    margin-top: 12px;
-    margin-left: 50px;
-    width: 160px;
-    height: 140px;
-    border-radius: 10px;
-    position: absolute;
+.header-menu.active {
     top: 0;
-    left: 0;
+}
+
+@media (max-width: 880px) {
+    body.lock {
+        overflow: hidden;
+    }
+        
+    .header-body {
+        height: 50px;
+    }
+    .header-burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+    .header-burger:before,
+    .header-burger:after {
+        content: '';
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header-burger:before {
+        top: 0;
+    }
+    .header-burger:after {
+        bottom: 0;
+    }
+    .header-burger span {
+        position: absolute;
+        background-color: black;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header-menu {
+        position: fixed;
+        height: 100%;
+        margin-top: 50px;
+        top: -150%;
+        width: 100%;
+        background-color: aquamarine;
+        padding: 0px 10px 20px 10px;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+
+    .header-menu.active {
+        padding-top: 130px;
+    }
+
+    .header-list {
+        display: block;
+    }
+
+    .header-list li {
+        margin: 0px 0px 20px 0px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 769px) {
+    .header-logo img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 720px) {
+    .header-logo img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 431px) {
+    .header-logo img {
+        width: 80px;
+    }
 }
 
 /* Block End */
@@ -111,4 +246,46 @@ body {
 .social-icons {
     width: 40px;
     padding: 0px 10px 0px 10px;
+}
+
+@media (max-width: 1225px) {
+    .social {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .social-icons {
+        padding: 0 0 10px 30px;
+    }
+    .logo-end-store {
+        padding-left: 70px;
+    }
+}
+
+@media (max-width: 908px) {
+    .contact-info {
+        flex-direction: column-reverse;
+    }
+    .social {
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-end-store {
+        display: none;
+    }
+    .mail {
+        padding: 0;
+    }
+    .address-and-kvk {
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .mail {
+        font-size: 10px;
+    }
+    .address-and-kvk {
+        font-size: 10px;
+    }
 }
