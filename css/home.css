@@ -9,7 +9,7 @@
 }
 
 .events {
-    min-height: 623px;
+    min-height: 624px;
     display: flex;
     align-items: flex-end;
     padding-top: 50px;
@@ -209,7 +209,7 @@
     }
     .dueties {
         margin-top: -80px;
-        padding-left: 240px;
+        padding-left: 170px;
         padding-right: 30px;
     }
 }
