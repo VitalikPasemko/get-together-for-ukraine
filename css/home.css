@@ -187,29 +187,34 @@
         padding-bottom: 0px;
     }
     .event {
-        margin-left: 150px;
-        margin-right: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
         margin-bottom: 80px;
     }
     .name-events {
-        font-size: 12px;
+        font-size: 13px;
     }
     
     .date-events {
-        font-size: 12px;
+        font-size: 13px;
         padding-top: 5px;
     }
     
     .info-events {
-        font-size: 7px;
+        font-size: 9px;
         padding-top: 5px;
     }
     .donate-now {
-        font-size: 10px;
+        font-size: 12px;
     }
+
+    .button-donate {
+        padding-top: 30px;
+    }
+
     .dueties {
         margin-top: -80px;
-        padding-left: 170px;
+        padding-left: 150px;
         padding-right: 30px;
     }
 }
@@ -292,21 +297,22 @@
         font-size: 30px;
     }
     .main-info {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0 0 100px;
     }
     .photo-creators img {
         max-width: 388px;
+        margin-top: 50px;
     }
     .creators {
         font-size: 16px;
-        padding: 0 100px 0;
+        padding: 0 50px 0;
     }
 }
 
 @media (max-width: 498px) {
     .title-creators {
-        font-size: 25px;
+        font-size: 20px;
     }
     .photo-creators img {
         max-width: 250px;
@@ -336,6 +342,7 @@
 
 .total-money, .total-events, .total-dinners {
     margin: auto;
+    width: 100%;
 }
 
 @media (max-width: 680px) {
@@ -360,6 +367,7 @@
 
 .title-partners {
     font-size: 40px;
+    text-align: center;
 }
 
 .logo-partners {

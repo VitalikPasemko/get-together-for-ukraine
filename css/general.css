@@ -12,6 +12,10 @@ body {
 
 /* Block start */
 
+.wrapper {
+    padding-right: 30px;
+}
+
 .header {
     width: 100%;
     top: 0;
@@ -254,9 +258,7 @@ body {
         flex-direction: column;
         padding: 0px;
     }
-    .social-icons {
-        padding: 0 0 10px 30px;
-    }
+
     .logo-end-store {
         padding-left: 70px;
     }
@@ -265,6 +267,7 @@ body {
 @media (max-width: 908px) {
     .contact-info {
         flex-direction: column-reverse;
+        text-align: center;
     }
     .social {
         display: flex;
