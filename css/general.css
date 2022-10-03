@@ -242,6 +242,10 @@ body {
     padding: 15px;
 }
 
+.mail-line {
+    color: white;
+}
+
 .social {
     padding-right: 100px;
     flex: 1 1 20%;

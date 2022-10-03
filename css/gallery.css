@@ -15,6 +15,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 40px;
+    padding-right: 30px;
 }
 
 .button-previous-click{
@@ -35,6 +36,26 @@
     max-width: 40px;
 }
 
+@media (max-width: 915px) {
+    .title-exhebition {
+        font-size: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 620px) {
+    .title-exhebition {
+        font-size: 25px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 395px) {
+    .title-exhebition {
+        font-size: 20px;
+        padding-right: 30px;
+    }
+}
+
 /* video Block */
 
 
@@ -49,8 +70,28 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 40px;
+    padding-right: 30px;
 }
 
+@media (max-width: 915px) {
+    .title-concert {
+        font-size: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 620px) {
+    .title-concert {
+        font-size: 25px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 395px) {
+    .title-concert {
+        font-size: 20px;
+        padding-right: 30px;
+    }
+}
 
 /* Carusel Block 2 */
 
@@ -66,6 +107,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 40px;
+    padding-right: 30px;
 }
 
 .button-previous-click{
@@ -76,4 +118,25 @@
 .button-next-click {
     border: 0px;
     background-color: white;
+}
+
+@media (max-width: 915px) {
+    .title-garden {
+        font-size: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 620px) {
+    .title-garden {
+        font-size: 25px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 395px) {
+    .title-garden {
+        font-size: 20px;
+        padding-right: 30px;
+    }
 }
