@@ -9,6 +9,8 @@
 }
 
 .events {
+    background: url('../img/fone-carusel.png');
+    background-size: cover;
     min-height: 624px;
     display: flex;
     align-items: flex-end;
@@ -244,6 +246,7 @@
 
 .title-creators {
     font-size: 40px;
+    text-align: center;
 }
 
 .creators {
@@ -253,16 +256,13 @@
 
 .photo-creators img {
     max-width: 388px;
-    height: auto;
+    height: 500px;
     border-radius: 20px;
     margin-top: 100px;
 }
 
 
 @media (max-width: 1130px) {
-    .main-info {
-        text-align: center;
-    }
     .photo-creators img {
         max-width: 300px;
     }

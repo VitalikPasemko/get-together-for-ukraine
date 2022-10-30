@@ -2,11 +2,53 @@
 
 
 /* Carusel block 1 */
+.slider {
+    position: relative;
+    padding: 0px 150px;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+
+.slick-slide img{
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.slick-slide:focus img { 
+    height: 500px;
+    
+}
+
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    margin: -30px 50px 0px 50px;
+}
 
 
-.photo-exhebition {
-    border: 1px solid white;
-    height: 476px;
+.slick-arrow.slick-prev{
+    left: 0;
+    background: url('../img/previous.png') 0 0 / 100% no-repeat;
+    border: none;
+    margin-left: 80px;
+}
+
+.slick-arrow.slick-next{
+    right: 0;
+    background: url('../img/next.png') 0 0 / 100% no-repeat;
+    border: none;
+    margin-right: 80px;
 }
 
 .title-exhebition {
@@ -18,28 +60,52 @@
     padding-right: 30px;
 }
 
-.button-previous-click{
-    border: 0px;
-    background-color: white;
+@media (max-width: 1005px) {
+    .slick-slide img{
+        height: 250px;
+    }
+    .slick-arrow.slick-prev{
+        margin-left: 60px;
+    }
+    
+    .slick-arrow.slick-next{
+        margin-right: 60px;
+    }
 }
-
-.button-next-click {
-    border: 0px;
-    background-color: white;
-}
-
-.button-next-click img {
-    max-width: 40px;
-}
-
-.button-previous-click img {
-    max-width: 40px;
-}
-
 @media (max-width: 915px) {
     .title-exhebition {
         font-size: 30px;
         padding-right: 30px;
+    }
+}
+@media (max-width: 875px) {
+    .slider {
+        padding: 0px 100px;
+    }
+    .slick-slide img{
+        height: 200px;
+    }
+    .slick-arrow.slick-prev{
+        margin-left: 40px;
+    }
+    
+    .slick-arrow.slick-next{
+        margin-right: 40px;
+    }
+}
+@media (max-width: 687px) {
+    .slider {
+        padding: 0px 60px;
+    }
+    .slick-slide img{
+        height: 150px;
+    }
+    .slick-arrow.slick-prev{
+        margin-left: 20px;
+    }
+    
+    .slick-arrow.slick-next{
+        margin-right: 20px;
     }
 }
 @media (max-width: 620px) {
@@ -48,7 +114,22 @@
         padding-right: 30px;
     }
 }
-
+@media (max-width: 490px) {
+    .slider {
+        padding: 0px 60px;
+    }
+    .slick-slide img{
+        height: 100px;
+        border-radius: 10px;
+    }
+    .slick-arrow.slick-prev{
+        margin-left: 20px;
+    }
+    
+    .slick-arrow.slick-next{
+        margin-right: 20px;
+    }
+}
 @media (max-width: 395px) {
     .title-exhebition {
         font-size: 20px;
@@ -59,10 +140,6 @@
 /* video Block */
 
 
-.video {
-    border: 1px solid white;
-    height: 670px;
-}
 
 .title-concert {
     margin-top: 70px;
@@ -95,10 +172,8 @@
 
 /* Carusel Block 2 */
 
-
 .photo-garden {
-    border: 1px solid white;
-    height: 628px;
+    padding-bottom: 50px;
 }
 
 .title-garden {
@@ -110,15 +185,6 @@
     padding-right: 30px;
 }
 
-.button-previous-click{
-    border: 0px;
-    background-color: white;
-}
-
-.button-next-click {
-    border: 0px;
-    background-color: white;
-}
 
 @media (max-width: 915px) {
     .title-garden {
